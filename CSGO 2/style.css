@@ -1,0 +1,90 @@
+
+
+
+
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #2c2f33;
+        color: white;
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        background-color: #23272a;
+        padding: 20px;
+        text-align: center;
+    }
+
+    header h1 {
+        color: #e74c3c;
+    }
+
+
+
+
+    .container {
+        display: flex;
+        justify-content: space-around;
+        margin: 20px;
+        flex-wrap: wrap;
+    }
+
+    .case {
+        background-color: #3a3f44;
+        border-radius: 10px;
+        width: 300px;
+        margin: 20px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .case img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .case h3 {
+        margin: 10px 0;
+    }
+
+    .case button {
+        padding: 10px 20px;
+        background-color: #3498db;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .case button:hover {
+        background-color: #2980b9;
+    }
+
+    #resultado {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #resultado img {
+        width: 150px;
+        height: 150px;
+    }
+
+    footer {
+        background-color: #23272a;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+    }
+
+    #probabilidades {
+        text-align: center;
+        margin-top: 20px;
+        background-color: #3a3f44;
+        padding: 20px;
+        border-radius: 10px;
+    }
